@@ -30,6 +30,7 @@ string klasan,przedmiot;
  
       void wprowadzu()
       {
+     		 wprowadzo( );
               cout << "wprowadz numer: " ;
               cin>>numer;
               cout << "wprowadz klasa: " ;
@@ -49,7 +50,7 @@ string klasan,przedmiot;
  
       void wprowadzn()
       {
-
+		wprowadzo( );
               cout << "wprowadz klase: " ;
               cin>>klasan;
               cout << "wprowadz przedmiot: " ;
@@ -67,10 +68,8 @@ string klasan,przedmiot;
 int main(int argc, char** argv) {
 	    uczen u;
 	    nauczyciel n;
-    u.wprowadzo();
     u.wprowadzu();
     u.wypiszu();
-    n.wprowadzo();
     n.wprowadzn();
     n.wypiszn();
     return 0;
